@@ -24,7 +24,7 @@ function setup(){
     pig1 = new Pig(810, 350);
     log1 = new Log(810,260,300, PI/2);
 
-    box3 = new Box(700,240,70,70);
+    box3 = new Box(700,240,70,70);//crear caja 3
     box4 = new Box(920,240,70,70);
     pig3 = new Pig(810, 220);
 
@@ -50,7 +50,7 @@ function draw(){
     pig1.display();
     log1.display();
 
-    box3.display();
+    box3.display();//mostrar caja 3
     box4.display();
     pig3.display();
     log3.display();
